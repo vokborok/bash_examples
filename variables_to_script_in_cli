@@ -1,0 +1,4 @@
+#!/bin/bash
+#chmod u+x script.sh
+#script.sh AnyVariable as much as you pointed in script
+echo "The following item was passed in to the script at run time $1 $2 $3"
