@@ -1,0 +1,16 @@
+#!/bin/bash
+  
+#This is example for loop in bash
+
+DIR=`ls *.sh`
+
+#echo "Dir script files is "$DIR""
+clear
+
+for F in $DIR
+do
+  echo "==========================================="
+  echo "This is $F"
+  cat $F
+  echo "==========================================="
+done
