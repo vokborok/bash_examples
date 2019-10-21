@@ -1,0 +1,12 @@
+#!/bin/bash
+echo " Please enter any number from 1 to 5 "
+read SOMENUMBER
+RIGHTNUMBER=5
+clear
+echo " You entered $SOMENUMBER "
+
+if [ $SOMENUMBER -eq $RIGHTNUMBER ] $$ 2>/dev/null ; then
+  echo "You are lucky, you guessed "
+else
+  echo "Try one more time"
+fi 
