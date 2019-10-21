@@ -1,0 +1,24 @@
+#!/bin/bash
+clear
+
+echo "=========================================================="
+
+echo "Please inter from 1 to 3 menu options"
+echo "1) menu button"
+echo "2) menu button"
+echo "3) menu button"
+
+echo "=========================================================="
+
+read VALUE
+case "$VALUE" in
+'1')
+echo "you chosed first menu button"
+;;
+'2')
+echo "you chosed second menu button"
+;;
+'3')
+echo "you chosed third menu button"
+;;
+esac
