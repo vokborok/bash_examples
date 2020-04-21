@@ -9,4 +9,6 @@ if [ $SOMENUMBER -eq $RIGHTNUMBER ] $$ 2>/dev/null ; then
   echo "You are lucky, you guessed "
 else
   echo "Try one more time"
-fi 
+fi
+
+test
